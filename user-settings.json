@@ -1,0 +1,60 @@
+{
+  "editor.formatOnSave": true,
+  "editor.fontSize": 15,
+  "editor.tabSize": 2,
+  "window.zoomLevel": 0.2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true,
+    "source.sortMembers": true,
+    "source.fixAll.eslint": true
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "database-client.showFilter": true,
+  "editor.minimap.enabled": false,
+  "gitlens.views.commitDetails.files.layout": "tree",
+  "yaml.customTags": [
+    "!And",
+    "!And sequence",
+    "!If",
+    "!If sequence",
+    "!Not",
+    "!Not sequence",
+    "!Equals",
+    "!Equals sequence",
+    "!Or",
+    "!Or sequence",
+    "!FindInMap",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Join",
+    "!Join sequence",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!Sub sequence",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!ImportValue sequence",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Split sequence"
+  ],
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "gitlens.mode.active": "zen",
+  "settingsSync.ignoredExtensions": [],
+  "window.autoDetectColorScheme": true,
+  "workbench.colorTheme": "Atom One Light",
+  "workbench.preferredHighContrastLightColorTheme": "Atom One Light",
+  "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
+  "workbench.preferredLightColorTheme": "Atom One Light",
+  "liveServer.settings.donotShowInfoMsg": true
+}
