@@ -5,17 +5,16 @@
   "window.zoomLevel": 0.2,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
-    "source.fixAll": true,
-    "source.organizeImports": true,
-    "source.sortMembers": true,
-    "source.fixAll.eslint": true
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit",
+    "source.sortMembers": "explicit",
+    "source.fixAll.eslint": "explicit"
   },
   "[python]": {
     "editor.formatOnType": true
   },
   "database-client.showFilter": true,
   "editor.minimap.enabled": false,
-  "gitlens.views.commitDetails.files.layout": "tree",
   "yaml.customTags": [
     "!And",
     "!And sequence",
@@ -49,12 +48,14 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "workbench.iconTheme": "vscode-icons",
-  "gitlens.mode.active": "zen",
   "settingsSync.ignoredExtensions": [],
   "window.autoDetectColorScheme": true,
-  "workbench.colorTheme": "Atom One Light",
+  "workbench.colorTheme": "One Dark Pro Darker",
   "workbench.preferredHighContrastLightColorTheme": "Atom One Light",
   "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
   "workbench.preferredLightColorTheme": "Atom One Light",
-  "liveServer.settings.donotShowInfoMsg": true
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  }
 }
