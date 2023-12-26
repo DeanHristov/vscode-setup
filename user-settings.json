@@ -1,6 +1,6 @@
 {
   "editor.formatOnSave": true,
-  "editor.fontSize": 15,
+  "editor.fontSize": 15.5,
   "editor.tabSize": 2,
   "window.zoomLevel": 0.2,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -13,7 +13,6 @@
   "[python]": {
     "editor.formatOnType": true
   },
-  "database-client.showFilter": true,
   "editor.minimap.enabled": false,
   "yaml.customTags": [
     "!And",
@@ -50,12 +49,25 @@
   "workbench.iconTheme": "vscode-icons",
   "settingsSync.ignoredExtensions": [],
   "window.autoDetectColorScheme": true,
-  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.colorTheme": "Atom One Light",
   "workbench.preferredHighContrastLightColorTheme": "Atom One Light",
   "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
   "workbench.preferredLightColorTheme": "Atom One Light",
   "liveServer.settings.donotShowInfoMsg": true,
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "gitlens.graph.minimap.additionalTypes": ["localBranches", "tags"],
+  "jestrunner.jestCommand": "npm run test --",
+  "jestrunner.debugOptions": {
+    "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/react-scripts",
+    "runtimeArgs": [
+      "test",
+      "${fileBasename}",
+      "--runInBand",
+      "--no-cache",
+      "--watchAll=false",
+      "--color"
+    ]
   }
 }
