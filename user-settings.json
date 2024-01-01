@@ -60,11 +60,10 @@
   "gitlens.graph.minimap.additionalTypes": ["localBranches", "tags"],
   "jestrunner.jestCommand": "npm run test --",
   "jestrunner.debugOptions": {
-    "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/react-scripts",
+    "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/jest",
     "runtimeArgs": [
       "test",
       "${fileBasename}",
-      "--runInBand",
       "--no-cache",
       "--watchAll=false",
       "--color"
