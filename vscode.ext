@@ -17,6 +17,7 @@ code --install-extension glenn2223.live-sass
 code --install-extension GrapeCity.gc-excelviewer
 code --install-extension GraphQL.vscode-graphql
 code --install-extension GraphQL.vscode-graphql-syntax
+code --install-extension humao.rest-client
 code --install-extension k--kato.intellij-idea-keybindings
 code --install-extension kddejong.vscode-cfn-lint
 code --install-extension mikestead.dotenv
