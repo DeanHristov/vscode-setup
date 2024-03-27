@@ -1,8 +1,8 @@
 {
   "editor.formatOnSave": true,
-  "editor.fontSize": 15.5,
+  "editor.fontSize": 16,
   "editor.tabSize": 2,
-  "window.zoomLevel": 0.2,
+  "window.zoomLevel": 0.5,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit",
@@ -49,7 +49,7 @@
   "workbench.iconTheme": "vscode-icons",
   "settingsSync.ignoredExtensions": [],
   "window.autoDetectColorScheme": true,
-  "workbench.colorTheme": "Atom One Light",
+  "workbench.colorTheme": "One Dark Pro Darker",
   "workbench.preferredHighContrastLightColorTheme": "Atom One Light",
   "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
   "workbench.preferredLightColorTheme": "Atom One Light",
@@ -68,5 +68,6 @@
       "--watchAll=false",
       "--color"
     ]
-  }
+  },
+  "hediet.vscode-drawio.resizeImages": null
 }
