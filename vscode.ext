@@ -5,10 +5,12 @@ code --install-extension andys8.jest-snippets
 code --install-extension angular.ng-template
 code --install-extension aster.vscode-subtitles
 code --install-extension bradlc.vscode-tailwindcss
+code --install-extension burkeholland.simple-react-snippets
 code --install-extension cweijan.dbclient-jdbc
 code --install-extension cweijan.vscode-database-client2
 code --install-extension dannysteenman.cloudformation-yaml-snippets
 code --install-extension dbaeumer.vscode-eslint
+code --install-extension docker.docker
 code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension eamodio.gitlens
 code --install-extension editorconfig.editorconfig
@@ -23,8 +25,10 @@ code --install-extension hediet.vscode-drawio
 code --install-extension humao.rest-client
 code --install-extension k--kato.intellij-idea-keybindings
 code --install-extension kddejong.vscode-cfn-lint
+code --install-extension mhutchie.git-graph
 code --install-extension mikestead.dotenv
 code --install-extension monish.regexsnippets
+code --install-extension ms-azuretools.vscode-containers
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-python.debugpy
 code --install-extension ms-python.isort
