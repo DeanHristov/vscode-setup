@@ -2,7 +2,7 @@
   "editor.formatOnSave": true,
   "editor.fontSize": 16,
   "editor.tabSize": 2,
-  "window.zoomLevel": 0.5,
+  "window.zoomLevel": 1,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit",
@@ -57,7 +57,10 @@
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"
   },
-  "gitlens.graph.minimap.additionalTypes": ["localBranches", "tags"],
+  "gitlens.graph.minimap.additionalTypes": [
+    "localBranches",
+    "tags"
+  ],
   "jestrunner.jestCommand": "npm run test --",
   "jestrunner.debugOptions": {
     "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/jest",
@@ -69,5 +72,9 @@
       "--color"
     ]
   },
-  "hediet.vscode-drawio.resizeImages": null
+  "hediet.vscode-drawio.resizeImages": null,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "diffEditor.ignoreTrimWhitespace": true
 }
