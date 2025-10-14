@@ -19,10 +19,10 @@ code --install-extension glenn2223.live-sass
 code --install-extension grapecity.gc-excelviewer
 code --install-extension graphql.vscode-graphql
 code --install-extension graphql.vscode-graphql-syntax
+code --install-extension gxl.git-graph-3
 code --install-extension humao.rest-client
 code --install-extension k--kato.intellij-idea-keybindings
 code --install-extension kddejong.vscode-cfn-lint
-code --install-extension mhutchie.git-graph
 code --install-extension mikestead.dotenv
 code --install-extension monish.regexsnippets
 code --install-extension ms-azuretools.vscode-containers
@@ -31,6 +31,7 @@ code --install-extension ms-python.debugpy
 code --install-extension ms-python.isort
 code --install-extension ms-python.python
 code --install-extension ms-python.vscode-pylance
+code --install-extension ms-python.vscode-python-envs
 code --install-extension ms-vscode.cpptools
 code --install-extension ms-vscode.vscode-typescript-next
 code --install-extension ms-vsliveshare.vsliveshare
