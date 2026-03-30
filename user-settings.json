@@ -8,10 +8,10 @@
     "source.fixAll": "explicit",
     "source.organizeImports": "explicit",
     "source.sortMembers": "explicit",
-    "source.fixAll.eslint": "explicit"
+    "source.fixAll.eslint": "explicit",
   },
   "[python]": {
-    "editor.formatOnType": true
+    "editor.formatOnType": true,
   },
   "editor.minimap.enabled": false,
   "yaml.customTags": [
@@ -41,26 +41,21 @@
     "!Select",
     "!Select sequence",
     "!Split",
-    "!Split sequence"
+    "!Split sequence",
   ],
   "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "vscode.json-language-features",
   },
   "workbench.iconTheme": "vscode-icons",
   "settingsSync.ignoredExtensions": [],
   "window.autoDetectColorScheme": true,
-  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.colorTheme": "Darcula Theme from IntelliJ",
   "workbench.preferredHighContrastLightColorTheme": "Atom One Light",
-  "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
-  "workbench.preferredLightColorTheme": "Atom One Light",
   "liveServer.settings.donotShowInfoMsg": true,
   "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
+    "editor.defaultFormatter": "vscode.css-language-features",
   },
-  "gitlens.graph.minimap.additionalTypes": [
-    "localBranches",
-    "tags"
-  ],
+  "gitlens.graph.minimap.additionalTypes": ["localBranches", "tags"],
   "jestrunner.jestCommand": "npm run test --",
   "jestrunner.debugOptions": {
     "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/jest",
@@ -69,12 +64,28 @@
       "${fileBasename}",
       "--no-cache",
       "--watchAll=false",
-      "--color"
-    ]
+      "--color",
+    ],
   },
   "hediet.vscode-drawio.resizeImages": null,
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+    "editor.defaultFormatter": "vscode.html-language-features",
   },
-  "diffEditor.ignoreTrimWhitespace": true
+  "diffEditor.ignoreTrimWhitespace": true,
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true,
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+  },
+  "docker.extension.enableComposeLanguageServer": false,
+  "workbench.preferredLightColorTheme": "Atom One Light",
 }
